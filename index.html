@@ -1,258 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lati Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/cfee536f6f.js"
-      crossorigin="anonymous"
-      async
-    ></script>
-  </head>
-  <body>
-    <header>
-      <div class="nav">
-        <nav>
-          <div class="logo">
-            <img id="logo" src="images/logo1.png" alt="" srcset="" />
-          </div>
-          <div class="nav_bars">
-            <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-          <div class="hire_btn">
-            <button>Hire Me</button>
-          </div>
-        </nav>
-      </div>
-      <div class="brief_hero">
-        <div class="brief_name">
-          <div class="name_intro">I am Lati T.</div>
-          <div>
-            <div class="hor_bar"></div>
-          </div>
-          <div class="user_brief">
-            Enthusiastic Computer Science and Engineering student eager to
-            innovate and contribute to the field.
-          </div>
-          <div class="cv_btn">
-            <button>Download CV</button>
-          </div>
+    <link rel="stylesheet" href="" id="theme_link">
+    <script src="https://kit.fontawesome.com/cfee536f6f.js" crossorigin="anonymous" async></script>
+</head>
+
+<body id="entire_body">
+    <header id="header">
+        <div class="nav">
+            <nav>
+                <div class="logo">
+                    <img id="logo" src="images/logo2.png" alt="" srcset="" />
+                </div>
+                <div class="nav_bars">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li id="blogs"><a href="#">My blogs</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="theme_btn">
+                    <div class="theme_toggle" id="theme_toggle">
+                        <div class="toggle_handle" id="toggle_handle" onclick="theme_toggle()">
+                            <i class="fa fa-sun"></i>
+                        </div>
+                    </div>
+                    <p></p>
+                </div>
+                <div class="hire_btn">
+                    <button>Hire Me</button>
+                </div>
+            </nav>
         </div>
-        <div class="user_image">
-          <img src="images/user_img2.png" alt="" srcset="" />
+        <div class="brief_hero">
+            <div class="brief_name">
+                <div class="name_intro">I am Lati T.</div>
+                <div>
+                    <div class="hor_bar"></div>
+                </div>
+                <div class="user_brief">
+                    Enthusiastic Computer Science and Engineering student eager to innovate and contribute to the field.
+                </div>
+                <div class="cv_btn">
+                    <button>Download CV</button>
+                </div>
+            </div>
+            <div class="user_image">
+                <img src="images/user_img2.png" alt="" srcset="" />
+            </div>
+            <div class="social_contact">
+                <div class="follow_me">
+                    <p>Follow Me</p>
+                </div>
+                <div class="social_icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
         </div>
-        <div class="social_contact">
-          <div class="follow_me">
-            <p>Follow Me</p>
-          </div>
-          <div class="social_icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-github"></i>
-            <i class="fa-brands fa-youtube"></i>
-          </div>
-        </div>
-      </div>
     </header>
 
     <main>
-      <section id="about">
-        <div class="section_name">ABOUT</div>
-        <div class="section_content">
-          <div class="image_section">
-            <img src="images/user_img2.png" alt="" />
-          </div>
-          <div class="text_section">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-            ratione aut omnis a modi iure impedit amet incidunt blanditiis,
-            temporibus velit maxime hic quae et sunt unde aliquid inventore
-            magnam.
-          </div>
-        </div>
-      </section>
+        <section id="about">
+            <div class="section_name">ABOUT</div>
+            <div class="section_content about_section">
+                <div class="image_section">
+                    <img src="images/user_img2.png" alt="" />
+                </div>
+                <div class="aboutme_text">
+                    <div class="text_section about_me_section" id="about_me_text">
 
-      <section id="services">
-        <div class="section_name">SERVICES</div>
-        <div class="section_content service_section">
-          <div class="service_card">
-            <div class="service_icon">
-              <i class="fa-solid fa-globe"></i>
+                        <strong>Hey there!</strong> 👋 <br><br>I'm Lati Tibabu, a 4th-year Computer Science and Engineering student at Adama Science and Technology University. 📚✨ My journey through CSE at ASTU has been incredibly rewarding, and I truly
+                        enjoy every moment of it. The thrill of tackling complex problems and coming up with creative solutions is what drives me every day. 💡🧠 <br><br>I'm passionate about several areas in tech, with a particular interest in machine
+                        learning, mobile app development, and graphics design. 🤖📱🎨 Whether it's coding a new app, experimenting with algorithms, or creating stunning graphics, I'm always eager to dive in and learn more. <br><br> Outside of my academic
+                        pursuits, I have a few hobbies that keep me grounded. I love doodling, which lets my creativity flow freely. ✏️🖼️ I also enjoy watching movies 🍿🎬 and reading tech blogs to stay updated with the latest trends and innovations.
+                        Despite the social media craze, I'm not much of a fan, preferring to focus on my personal growth and tech endeavors instead. 🌐📚 <br><br>Being a CSE student at ASTU has given me the skills and knowledge I need to succeed in the
+                        tech world, and I'm determined to make a mark in this field. 🚀💡 I look forward to a future where I can continue solving problems and bringing my unique ideas to life. <br><br>Thanks for getting to know me a little better! 😊🎉
+                    </div>
+                    <button onclick="expand()" id="about_read_button_content">Read more about me
+                    
+                    <i class="fa fa-chevron-down"></i> </button>
+                </div>
+
             </div>
-            <div class="service_name">Web Development</div>
-            <div class="service_description">
-              Offering custom website development tailored to clients' needs,
-              from simple static sites to dynamic web applications
+        </section>
+
+        <section id="services">
+            <div class="section_name">SERVICES</div>
+            <div class="section_content service_section">
+                <div class="service_card">
+                    <div class="service_icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="service_name">Web Development</div>
+                    <div class="service_description">
+                        Offering custom website development tailored to clients' needs, from simple static sites to dynamic web applications
+                    </div>
+                </div>
+
+                <div class="service_card">
+                    <div class="service_icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <div class="service_name">Graphics Design</div>
+                    <div class="service_description">
+                        Providing creative and visually appealing graphic design solutions, including logo design, branding, and digital illustrations
+                    </div>
+                </div>
+
+                <div class="service_card">
+                    <div class="service_icon">
+                        <i class="fa-solid fa-comment"></i>
+                    </div>
+                    <div class="service_name">Technical Consulting</div>
+                    <div class="service_description">
+                        Offering expert advice and guidance on technical challenges, project planning, and strategy implementation
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
 
-          <div class="service_card">
-            <div class="service_icon">
-              <i class="fa-solid fa-palette"></i>
+        <section id="skills">
+            <div class="section_name">SKILLS</div>
+            <div class="section_content skills_section">
+                <div class="skills_general subsection_section">
+                    <div class="subsection_name general_name">GENERAL SKILLS</div>
+                    <div class="my_skills_general subsection_content">
+                        <div class="general_skill_card">
+                            <div class="gen_skill_icon">
+                                <i class="fa-solid fa-code"></i>
+                            </div>
+                            <div class="gen_skill_name">Coding</div>
+                            <div class="gen_skill_description">
+                                Proficient in Python, JavaScript, HTML/CSS
+                            </div>
+                        </div>
+
+                        <div class="general_skill_card">
+                            <div class="gen_skill_icon">
+                                <i class="fa-solid fa-paint-brush"></i>
+                            </div>
+                            <div class="gen_skill_name">Web and Graphics Design</div>
+                            <div class="gen_skill_description">
+                                Skilled in UI/UX principles
+                            </div>
+                        </div>
+
+                        <div class="general_skill_card">
+                            <div class="gen_skill_icon">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <div class="gen_skill_name">Problem Solving</div>
+                            <div class="gen_skill_description">
+                                Strong analytical skills
+                            </div>
+                        </div>
+
+                        <div class="general_skill_card">
+                            <div class="gen_skill_icon">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div class="gen_skill_name">Soft Skills</div>
+                            <div class="gen_skill_description">
+                                Effective Communication, Team Collaboration, Time Management, Continuous Learning
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills_progress subsection_section">
+                    <div class="subsection_name general_name">MY SKILLS PROGRESS</div>
+                    <div class="my_skills_progress subsection_content">
+                        <div class="skill_progress_card">
+                            <div class="skill_name html_css_skill">HTML/CSS</div>
+                            <div class="skill_progress html_css_progress">
+                                <div class="skill_progress_bar html_css_progress_bar">90%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name javascript_skill">JavaScript</div>
+                            <div class="skill_progress javascript_progress">
+                                <div class="skill_progress_bar javascript_progress_bar">85%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name python_skill">Python</div>
+                            <div class="skill_progress python_progress">
+                                <div class="skill_progress_bar python_progress_bar">95%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name react_skill">React</div>
+                            <div class="skill_progress react_progress">
+                                <div class="skill_progress_bar react_progress_bar">80%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name ui_ux_design_skill">UI/UX Design</div>
+                            <div class="skill_progress ui_ux_design_progress">
+                                <div class="skill_progress_bar ui_ux_design_progress_bar">85%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name photoshop_skill">Adobe Photoshop</div>
+                            <div class="skill_progress photoshop_progress">
+                                <div class="skill_progress_bar photoshop_progress_bar">95%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name problem_solving_skill">
+                                Problem Solving
+                            </div>
+                            <div class="skill_progress problem_solving_progress">
+                                <div class="skill_progress_bar problem_solving_progress_bar">95%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name team_collaboration_skill">
+                                Team Collaboration
+                            </div>
+                            <div class="skill_progress team_collaboration_progress">
+                                <div class="skill_progress_bar team_collaboration_progress_bar">90%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name time_management_skill">
+                                Time Management
+                            </div>
+                            <div class="skill_progress time_management_progress">
+                                <div class="skill_progress_bar time_management_progress_bar">95%</div>
+                            </div>
+                        </div>
+
+                        <div class="skill_progress_card">
+                            <div class="skill_name continuous_learning_skill">
+                                Continuous Learning
+                            </div>
+                            <div class="skill_progress continuous_learning_progress">
+                                <div class="skill_progress_bar continuous_learning_progress_bar">100%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="service_name">Graphics Design</div>
-            <div class="service_description">
-              Providing creative and visually appealing graphic design
-              solutions, including logo design, branding, and digital
-              illustrations
-            </div>
-          </div>
-
-          <div class="service_card">
-            <div class="service_icon">
-              <i class="fa-solid fa-comment"></i>
-            </div>
-            <div class="service_name">Technical Consulting</div>
-            <div class="service_description">
-              Offering expert advice and guidance on technical challenges,
-              project planning, and strategy implementation
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="skills">
-        <div class="section_name">SKILLS</div>
-        <div class="section_content skills_section">
-          <div class="skills_general subsection_section">
-            <div class="subsection_name general_name">GENERAL SKILLS</div>
-            <div class="my_skills_general subsection_content">
-              <div class="general_skill_card">
-                <div class="gen_skill_icon">
-                  <i class="fa-solid fa-code"></i>
-                </div>
-                <div class="gen_skill_name">Coding</div>
-                <div class="gen_skill_description">
-                  Proficient in Python, JavaScript, HTML/CSS
-                </div>
-              </div>
-
-              <div class="general_skill_card">
-                <div class="gen_skill_icon">
-                  <i class="fa-solid fa-paint-brush"></i>
-                </div>
-                <div class="gen_skill_name">Web and Graphics Design</div>
-                <div class="gen_skill_description">
-                  Skilled in UI/UX principles
-                </div>
-              </div>
-
-              <div class="general_skill_card">
-                <div class="gen_skill_icon">
-                  <i class="fa-solid fa-brain"></i>
-                </div>
-                <div class="gen_skill_name">Problem Solving</div>
-                <div class="gen_skill_description">
-                  Strong analytical skills
-                </div>
-              </div>
-
-              <div class="general_skill_card">
-                <div class="gen_skill_icon">
-                  <i class="fa-solid fa-users"></i>
-                </div>
-                <div class="gen_skill_name">Soft Skills</div>
-                <div class="gen_skill_description">
-                  Effective Communication, Team Collaboration, Time Management,
-                  Continuous Learning
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="skills_progress subsection_section">
-            <div class="subsection_name general_name">MY SKILLS PROGRESS</div>
-            <div class="my_skills_progress subsection_content">
-              <div class="skill_progress_card">
-                <div class="skill_name html_css_skill">HTML/CSS</div>
-                <div class="skill_progress html_css_progress">
-                  <div class="skill_progress_bar html_css_progress_bar">90%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name javascript_skill">JavaScript</div>
-                <div class="skill_progress javascript_progress">
-                  <div class="skill_progress_bar javascript_progress_bar">85%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name python_skill">Python</div>
-                <div class="skill_progress python_progress">
-                  <div class="skill_progress_bar python_progress_bar">95%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name react_skill">React</div>
-                <div class="skill_progress react_progress">
-                  <div class="skill_progress_bar react_progress_bar">80%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name ui_ux_design_skill">UI/UX Design</div>
-                <div class="skill_progress ui_ux_design_progress">
-                  <div class="skill_progress_bar ui_ux_design_progress_bar">85%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name photoshop_skill">Adobe Photoshop</div>
-                <div class="skill_progress photoshop_progress">
-                  <div class="skill_progress_bar photoshop_progress_bar">95%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name problem_solving_skill">
-                  Problem Solving
-                </div>
-                <div class="skill_progress problem_solving_progress">
-                  <div class="skill_progress_bar problem_solving_progress_bar">95%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name team_collaboration_skill">
-                  Team Collaboration
-                </div>
-                <div class="skill_progress team_collaboration_progress">
-                  <div class="skill_progress_bar team_collaboration_progress_bar">90%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name time_management_skill">
-                  Time Management
-                </div>
-                <div class="skill_progress time_management_progress">
-                  <div class="skill_progress_bar time_management_progress_bar">95%</div>
-                </div>
-              </div>
-
-              <div class="skill_progress_card">
-                <div class="skill_name continuous_learning_skill">
-                  Continuous Learning
-                </div>
-                <div class="skill_progress continuous_learning_progress">
-                  <div class="skill_progress_bar continuous_learning_progress_bar">100%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </main>
     <footer>footer</footer>
-  </body>
+    <script>
+        let about_read = 0;
+        let theme_toggle_c = 0;
+
+        function expand() {
+            if (about_read === 0) {
+                document.getElementById('about_me_text').style.height = 'fit-content';
+                // document.getElementById('about_me_section').style.height = 'fit-content';
+                document.getElementById('about_read_button_content').innerHTML = 'Read less  <i class="fa fa-chevron-up">';
+                about_read = 1;
+            } else {
+                document.getElementById('about_me_text').style.height = '300px';
+                document.getElementById('about_read_button_content').innerHTML = 'Read more about me  <i class="fa fa-chevron-down">';
+                about_read = 0;
+            }
+        }
+
+        function theme_toggle() {
+
+            if (theme_toggle_c === 0) {
+                document.getElementById("theme_toggle").style.justifyContent = "end";
+                document.getElementById("toggle_handle").innerHTML = '<i class="fa fa-moon"></i>';
+                // link.href = "dark_mode_style.css";
+                // head.appendChild(link);
+                document.getElementById("theme_link").href = "dark_mode_style.css";
+
+                theme_toggle_c = 1;
+            } else {
+                document.getElementById("theme_toggle").style.justifyContent = "start";
+                document.getElementById("toggle_handle").innerHTML = '<i class="fa fa-sun"></i>';
+                document.getElementById("theme_link").href = "light_mode_style.css";
+                theme_toggle_c = 0;
+            }
+        }
+    </script>
+</body>
+
 </html>
